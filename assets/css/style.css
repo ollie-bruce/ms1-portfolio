@@ -1,0 +1,36 @@
+/* Fonts and Text Formatting */
+
+.navbar-brand {
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+}
+
+.navbar li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon i {
+    margin: 0;
+}
+
+.active {
+    text-decoration: underline;
+}
+/* Colours */
+
+body {
+    background-color: #181818;
+}
+
+.navbar {
+    background-color: #3e3e3e;
+}
+
+.navbar li a {
+    color: #D67214;
+}
+
+.navbar-toggler-icon i {
+    color: #fafafa
+}
