@@ -2,7 +2,7 @@
 
 .navbar-brand {
   font-family: 'Exo', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .navbar li {
@@ -17,6 +17,23 @@
 .active {
     text-decoration: underline;
 }
+
+.title {
+    font-family: 'Exo', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1{
+    font-weight: 500;  
+}
+
+.title h2 {
+    font-weight: 500;
+}
+
 /* Colours */
 
 body {
@@ -33,4 +50,56 @@ body {
 
 .navbar-toggler-icon i {
     color: #fafafa
+}
+
+.first-name {   
+    color: #fafafa;
+}
+
+.last-name {
+    color: #D67214;
+}
+
+.title h2 {
+    color: #fafafa;
+}
+
+/* Background Image */
+
+.bg-image {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/images/IMG_20190107_182235.jpg); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 576px) {
+    .title h1{
+    font-size: 60px;   
+    }
+    .title h2 {
+        font-size: 42px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .title h1{
+        font-size: 120px;   
+    }
+    .title h2 {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .title h1{
+        font-size: 144px;   
+    }
+    .title h2 {
+        font-size: 72px;
+    }
 }
