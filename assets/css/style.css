@@ -119,6 +119,12 @@ body {
     background-position: center;
 }
 
+/* Navbar Hover */
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 0px) {
