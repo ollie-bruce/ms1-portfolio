@@ -46,12 +46,12 @@
     font-weight: 300;
 }
 
-#video-title {
+.video-title {
     color: #D67214;
     font-family: 'Exo', sans-serif;
 }
 
-#video-description {
+.video-description {
     color: #fafafa;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
