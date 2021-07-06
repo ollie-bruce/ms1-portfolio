@@ -1,7 +1,5 @@
 # Milestone Project 1 - Portfolio Website
 
----
-
 ## Introduction
 
 [View the live project here.](https://ollie-bruce.github.io/ms1-portfolio/)
