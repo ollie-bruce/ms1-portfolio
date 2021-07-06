@@ -113,7 +113,7 @@ body {
 /* Background Image */
 
 .bg-image {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/IMG_20190107_182235.JPG);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/IMG_20190107_182235.JPG);
     height: 100vh;
     background-size: cover;
     background-position: center;
