@@ -34,7 +34,7 @@
     font-weight: 500;
 }
 
-#section-heading {
+.content-heading {
     color: #D67214;
     font-family: 'Exo', sans-serif;
 }
@@ -134,7 +134,7 @@ body {
     .title h2 {
         font-size: 42px;
     }
-    #section-heading {
+    .content-heading {
     font-size: 50px;
     }
     #about-text {
@@ -152,7 +152,7 @@ body {
     .title h2 {
         font-size: 64px;
     }
-    #section-heading {
+    .content-heading {
     font-size: 70px;
     }
     #about-text {
@@ -171,13 +171,13 @@ body {
     .title h2 {
         font-size: 72px;
     }
-    #section-heading {
+    .content-heading {
     font-size: 85px;
     }
     #about-text {
         text-align: left;
     }
-    #video-title {
+    .video-title {
     font-size: 65px;
     }
     
