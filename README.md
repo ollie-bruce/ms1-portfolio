@@ -137,3 +137,39 @@ Alt text is used to describe the photo of Oliver on the About page and for the b
 #### Page Layout
 
 In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
+
+## Features
+----
+
+#### Navigation
+
+To allow for simple navigation across all pages on the site, the primary feature is a responsive navigation bar:
+
+* A logo placed in the top left of the page which redirects back to the landing page followed by a navigation bar leading to all of the website's pages and a download link for Oliver's CV.
+  * For brevity of navigation, the developer decided to omit a footer, as it would clutter the site's design even on larger devices and only offer the barest of information for the space it would take up on the page.
+* On screen sizes smaller than a desktop, the navbar collapses into a toggler that reveals all the links when clicked.
+
+#### Landing Page
+
+The landing page consists of a single column that occupies the whole screen space.
+
+* A background image that stretches the across the whole page. On smaller screen sizes, the image adjusts in size so as to keep all elements on the page in view without the need for scrolling.
+* A title and subtitle introducing Oliver and the fields he works in. Breakpoints have been used so that the text spacing remains the same across all devices, remaining across three lines regardless of screen size.
+
+#### About
+
+The about page consists of a single column across the entire page on all screen sizes.
+
+* The About page contains two sections each consisting of two rows; the first row in both contains the Title for each section, whilst the second contains the section's contents.
+* Each of these sections is separated by a horizontal ruler to emphasise their divisions.
+* The first section is titled **About**. In this section, a photo of Oliver occupies a third of the row (four columns out of 12 via the Bootstrap grid system). On devices smaller than a tablet (Bootstrap's `sm` size) this image does not appear so as to not clutter the screen. The rest of the row is given over to a short blurb about Oliver. 
+* The second section is titled **Skills**. This section's contents entirely contains a table breaking up Oliver's skills into Beginner, Intermediate, and Expert. This format of presentation allows an easy way to gauge Oliver's abilities in a variety of fields, and can be easily updated in the future. For devices smaller than a desktop, the table is scrollable and can still be easily navigated.
+
+#### Videography
+
+Similar to the About page, the Videography page a single column across the entire page on all screen sizes.
+
+* Each video project has it's own row on the page. Each row contains a video embed that takes up half the row on desktop and tablet, and a blurb which takes up the other half
+* Each row is divided by a horizontal ruler.
+* On mobile devices, the videos and their blurbs stack atop one another. The video goes above the blurb whilst now taking up the whole screen, whilst the blurb also takes up the whole screen and the text alignment changes to the centre.
+
