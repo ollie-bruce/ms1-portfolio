@@ -116,4 +116,24 @@ In order to better visualise what the website would look like for both building 
 
 ![A wireframe showing the videography and development page for desktop, mobile, and tablet](assets/readme-images/videography.png)
 
-In doing the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented.
+### Design
+
+#### Colour Scheme
+
+The main colours used throughout the site are grey, orange, and white for text. These were chosen to give a sense of consistency between the site and Oliver's existing video portfolio, which uses these colours for its title cards.
+
+#### Fonts
+
+Three primary fonts were used: *[Exo](https://fonts.google.com/specimen/Exo?query=exo)* for page titles and the logos in the header and landing page; *[Lato](https://fonts.google.com/specimen/Lato?query=lato)* for body text and the navbar links; *sans-serif* as a fall-back for both in case of incompatibility.
+
+#### Media
+
+The images included in each page were chosen to represent Oliver in the best light whilst maintaining the site's design aesthetic. The background image was taken by Oliver during a trip to New York and was chosen due to its large resolution along with the darker colours as opposed to a brighter picture.
+
+The photo on the About page was taken by a friend of Oliver's and was chosen for its emphasis on him as the subject along with the slightly muted oranges present that allow it to blend in with the site's design and colour scheme.
+
+Alt text is used to describe the photo of Oliver on the About page and for the background image in the homepage. The method for the latter can be found [here.](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+
+#### Page Layout
+
+In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
