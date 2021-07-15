@@ -9,8 +9,6 @@ This website was designed with the intent of providing Oliver Bruce, the develop
 
 For the purposes of the Code Institute Web Application Development Diploma, this is the first of four Milestone Projects, wherein the requirements were to make a responsive website of at least three pages primarily using **HTML** and **CSS**.
 
-----
-
 ## UX
 
 ### User Demographics
@@ -139,7 +137,6 @@ Alt text is used to describe the photo of Oliver on the About page and for the b
 In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
 
 ## Features
-----
 
 #### Navigation
 
