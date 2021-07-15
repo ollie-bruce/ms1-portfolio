@@ -129,19 +129,19 @@ body {
 
 @media only screen and (min-width: 0px) {
     .title h1{
-    font-size: 60px;   
+        font-size: 60px;   
     }
-    .title h2 {
-        font-size: 42px;
+    .title h2{
+        font-size: 28px;
     }
     .content-heading {
-    font-size: 50px;
+        font-size: 50px;
     }
     #about-text {
         text-align: center;
     }
     #video-title {
-    font-size: 45px;
+        font-size: 45px;
     }
 }
 
@@ -150,16 +150,16 @@ body {
         font-size: 120px;   
     }
     .title h2 {
-        font-size: 64px;
+        font-size: 58px;
     }
     .content-heading {
-    font-size: 70px;
+        font-size: 70px;
     }
     #about-text {
         text-align: center;
     }
     #video-title {
-    font-size: 50px;
+        font-size: 50px;
     }
 }
 
@@ -172,13 +172,13 @@ body {
         font-size: 72px;
     }
     .content-heading {
-    font-size: 85px;
+        font-size: 85px;
     }
     #about-text {
         text-align: left;
     }
     .video-title {
-    font-size: 65px;
+        font-size: 65px;
     }
     
 }
