@@ -100,3 +100,20 @@ On all pages a **Footer** was to be present to provide constant access to:
 
 * Oliver's CV
 
+### Wireframes
+
+In order to better visualise what the website would look like for both building it and initial feedback, wireframes were created by the developer before building the website. The most complete of these was created in [Figma Workspace.](https://www.figma.com/file/EvvQTNHQmvHxHteGiUXKtr/Milestone-Project-1-Portfolio-Website?node-id=0%3A1)
+
+#### Homepage
+
+![A wireframe showing the homepage page for desktop, mobile, and tablet](assets/readme-images/homepage.png)
+
+#### About
+
+![A wireframe showing the about page for desktop, mobile, and tablet](assets/readme-images/about.png)
+
+#### Videography/Development
+
+![A wireframe showing the videography and development page for desktop, mobile, and tablet](assets/readme-images/videography.png)
+
+In doing the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented.
