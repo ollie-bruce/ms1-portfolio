@@ -1,4 +1,4 @@
-/* Override Bootstrap's page sizing */
+/* Override Bootstrap's page sizing, inspired by https://stackoverflow.com/a/11800328 */
 
 @media only screen and (min-width: 360px) {
     .container {
