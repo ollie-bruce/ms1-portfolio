@@ -9,6 +9,8 @@ This website was designed with the intent of providing Oliver Bruce, the develop
 
 For the purposes of the Code Institute Web Application Development Diploma, this is the first of four Milestone Projects, wherein the requirements were to make a responsive website of at least three pages primarily using **HTML** and **CSS**.
 
+----
+
 ## UX
 
 ### User Demographics
@@ -70,7 +72,7 @@ This then helped the developer to define the **scope** of the project and what w
 
 As such, a **structure** was then decided upon for the website:
 
-#### Home Page
+#### Landing Page
 
 * Name and Professions
 
@@ -102,9 +104,9 @@ On all pages a **Footer** was to be present to provide constant access to:
 
 In order to better visualise what the website would look like for both building it and initial feedback, wireframes were created by the developer before building the website. The most complete of these was created in [Figma Workspace.](https://www.figma.com/file/EvvQTNHQmvHxHteGiUXKtr/Milestone-Project-1-Portfolio-Website?node-id=0%3A1)
 
-#### Homepage
+#### Landing page
 
-![A wireframe showing the homepage page for desktop, mobile, and tablet](assets/readme-images/homepage.png)
+![A wireframe showing the landing page page for desktop, mobile, and tablet](assets/readme-images/homepage.png)
 
 #### About
 
@@ -130,13 +132,15 @@ The images included in each page were chosen to represent Oliver in the best lig
 
 The photo on the About page was taken by a friend of Oliver's and was chosen for its emphasis on him as the subject along with the slightly muted oranges present that allow it to blend in with the site's design and colour scheme.
 
-Alt text is used to describe the photo of Oliver on the About page and for the background image in the homepage. The method for the latter can be found [here.](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+Alt text is used to describe the photo of Oliver on the About page and for the background image in the landing page. The method for the latter can be found [here.](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 
 #### Page Layout
 
 In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
 
 ## Features
+
+----
 
 #### Navigation
 
@@ -166,7 +170,28 @@ The about page consists of a single column across the entire page on all screen 
 
 Similar to the About page, the Videography page a single column across the entire page on all screen sizes.
 
-* Each video project has it's own row on the page. Each row contains a video embed that takes up half the row on desktop and tablet, and a blurb which takes up the other half
+* Each video project has it's own row on the page. Each row contains a video embed that takes up half the row on desktop and tablet, and a blurb which takes up the other half.
+  * Video embeds open a modal video player via YouTube embeds when clicked.
 * Each row is divided by a horizontal ruler.
 * On mobile devices, the videos and their blurbs stack atop one another. The video goes above the blurb whilst now taking up the whole screen, whilst the blurb also takes up the whole screen and the text alignment changes to the centre.
+
+#### Contact Me
+
+The Contact me page has the same structure as the other pages for the sake of a cohesive design; a single column covering the entire page.
+
+* A contact form that asks for Email, name, and project idea along with a Submit call-to-action.
+  * The form is not validated as of submission of this project
+
+#### Features to implement
+
+* A method by which to embed Github projects in the development page similar to the videos in the videography page.
+  * Not implemented in this version due to lack of JavaScript experience.
+
+## Issues and bugs
+
+There were a number of issues that came up during development. Notable ones are listed here, along with solutions.
+
+* On the landing page, smaller screen sizes saw the title text get obscured by the navigation bar. This issue was fixed when the class `sticky-top` was used to ensure that when scrolling the navbar remained at the top of the page.
+* When viewed on large screen sizes, the margins at the left and right edge of each page were very large, leaving a lot of dead space around the content. Using [Stack Overflow](https://stackoverflow.com/a/11800328) the developer found a solution which involved using CSS to set custom sizes for the `container` element, a key part of Bootstrap's CSS rules. These values override Bootstrap's default sizes for the `container` element and allows the developer to tweak the size of `container` across all device sizes.
+* Upon using Github pages to show a live build of the website for the purposes of this readme, an issue was found in regards to images and the CV download link. Most notable was the background image; when using Gitpod previews, the image displayed fine, however on Github Pages the image would not display. Using Chrome development tools and after browsing a forum post on [Codecademy](https://discuss.codecademy.com/t/background-image-not-displaying-on-github-pages/570640), the developer found that the file path for the image was incorrect. This was fixed by changing `url(/images/IMG_20190107_182235.JPG)` to `url(../images/IMG_20190107_182235.JPG)`.
 
