@@ -119,6 +119,12 @@ body {
     background-position: center;
 }
 
+/* Layout */
+
+.row {
+    padding-top: 20px;
+}
+
 /* Navbar Hover */
 
 .nav-item:hover {
