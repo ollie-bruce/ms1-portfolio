@@ -139,7 +139,6 @@ Alt text is used to describe the photo of Oliver on the About page and for the b
 In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
 
 ## Features
-----
 
 #### Navigation
 
