@@ -35,9 +35,9 @@ These elements appear on every page identically and as such were tested once.
 
 ### W3Schools Validator
 
-![W3School HTML Validation screenshots for all pages](assets/testing/about.png
+![W3School HTML Validation screenshots for all pages](assets/testing/landing.png)
 assets/testing/contact.png
 assets/testing/development.png
-assets/testing/landing page.png
+
 assets/testing/videography.png)
 
