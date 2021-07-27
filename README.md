@@ -224,7 +224,7 @@ There were a number of issues that came up during development. Notable ones are 
 
 ## Testing
 
-All testing procedures and results can be found in a separate file [here](testing.md here)
+All testing procedures and results can be found in a separate file [here](/workspace/ms1-portfolio/TESTING.md)
 
 ## Deployment
 
