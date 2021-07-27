@@ -139,7 +139,6 @@ Alt text is used to describe the photo of Oliver on the About page and for the b
 In creating the wireframes, the developer considered that, to keep design consistency and enable easier navigation, that the videography page and development page would use the same overall layout for displaying the projects that would be presented. This meant keeping all of the video embeds and development project previews on the left of the page in desktop view and above the blurbs in mobile and tablet view.
 
 ## Features
-
 ----
 
 #### Navigation
@@ -184,7 +183,7 @@ The Contact me page has the same structure as the other pages for the sake of a 
 
 #### Features to implement
 
-* A method by which to embed Github projects in the development page similar to the videos in the videography page.
+* A method by which to embed GitHub projects in the development page similar to the videos in the videography page.
   * Not implemented in this version due to lack of JavaScript experience.
 
 ## Issues and bugs
@@ -193,5 +192,71 @@ There were a number of issues that came up during development. Notable ones are 
 
 * On the landing page, smaller screen sizes saw the title text get obscured by the navigation bar. This issue was fixed when the class `sticky-top` was used to ensure that when scrolling the navbar remained at the top of the page.
 * When viewed on large screen sizes, the margins at the left and right edge of each page were very large, leaving a lot of dead space around the content. Using [Stack Overflow](https://stackoverflow.com/a/11800328) the developer found a solution which involved using CSS to set custom sizes for the `container` element, a key part of Bootstrap's CSS rules. These values override Bootstrap's default sizes for the `container` element and allows the developer to tweak the size of `container` across all device sizes.
-* Upon using Github pages to show a live build of the website for the purposes of this readme, an issue was found in regards to images and the CV download link. Most notable was the background image; when using Gitpod previews, the image displayed fine, however on Github Pages the image would not display. Using Chrome development tools and after browsing a forum post on [Codecademy](https://discuss.codecademy.com/t/background-image-not-displaying-on-github-pages/570640), the developer found that the file path for the image was incorrect. This was fixed by changing `url(/images/IMG_20190107_182235.JPG)` to `url(../images/IMG_20190107_182235.JPG)`.
+* Upon using GitHub pages to show a live build of the website for the purposes of this readme, an issue was found in regards to images and the CV download link. Most notable was the background image; when using Gitpod previews, the image displayed fine, however on GitHub Pages the image would not display. Using Chrome development tools and after browsing a forum post on [Codecademy](https://discuss.codecademy.com/t/background-image-not-displaying-on-github-pages/570640), the developer found that the file path for the image was incorrect. This was fixed by changing `url(/images/IMG_20190107_182235.JPG)` to `url(../images/IMG_20190107_182235.JPG)`.
+
+## Technologies
+
+### Primary Languages:
+
+* HTML5
+* CSS3
+
+### Secondary Languages:
+
+* JavaScript
+  * Part of the Bootstrap framework for certain features on the site.
+
+### Libraries, Frameworks, and Programs:
+
+* Bootstrap 4.3
+  * Used for layout and responsive design, along with features such as the Skills table and contact form.
+* Google Fonts
+  * Imports the "Exo" and "Lato" fonts used throughout the site.
+* Font Awesome
+  * Used for the navbar toggler icon present on small screen sizes.
+* Git
+  * Version control and pushing to GitHub
+* GitHub
+  * Storing all files related to the website alongside using GitHub Pages to present a live version of the website
+* Figma
+  * Used to create the wireframes during the initial stages of the project
+* Typora
+  * Used to write both README.md and TESTING.md in markdown
+
+## Testing
+
+All testing procedures and results can be found in a separate file [here](testing.md here)
+
+## Deployment
+
+The website was developed using the GitPod IDE, using the GitPod terminal to commit and push the code to GitHub.
+
+### GitHub Pages Deployment:
+
+The following steps were followed in deploying the site to GitHub Pages:
+
+1. Log into GitHub and locate the site's repository
+2. Click on the "Settings" button in the top-right of the page
+3. Scroll down and select "Pages" on the left-hand-side
+4. Click on the "Branch" dropdown menu and choose "master"
+5. The page refreshes, and provides the user with a link for the deployed site.
+
+## Credits
+
+### Content
+
+* All text content was written by the developer
+
+### Media
+
+* The photo of Oliver on the About page was taken by [Alex Norman](https://alexnorman.co.uk/)
+* All other media is the property of Oliver Bruce, the developer
+
+### Code
+
+Several sources were consulted when it came to finding solutions to problems and understanding what code was best to use and when.
+
+* [W3Schools](https://www.w3schools.com/)
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Stack Overflow](https://stackoverflow.com/)
 
