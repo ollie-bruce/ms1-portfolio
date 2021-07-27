@@ -30,3 +30,14 @@ These elements appear on every page identically and as such were tested once.
 * Clicking on "Download my CV" will download the correct file without errors.
 
 ![A gif showing the CV download element being tested for function](assets/testing/download-testing.gif)
+
+## Automated Testing
+
+### W3Schools Validator
+
+![W3School HTML Validation screenshots for all pages](assets/testing/about.png
+assets/testing/contact.png
+assets/testing/development.png
+assets/testing/landing page.png
+assets/testing/videography.png)
+
