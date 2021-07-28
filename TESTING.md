@@ -109,3 +109,4 @@ Page responsiveness
 
 ![W3School HTML Validation screenshots for all pages](assets/testing/contact.png)
 
+![W3School CSS Validation](assets/testing/css.png)
