@@ -122,3 +122,10 @@ Page responsiveness
 #### CSS
 
 ![W3School CSS Validation](assets/testing/css.png)
+
+## User testing
+
+The website and documentation were given to friends and family to provide feedback on any bugs present or usability issues. From this feedback, two main features were implemented:
+
+* Adjusting the font sizes of main page titles for smaller screen sizes to increase readability (i.e. multi-word titles remaining on the same line)
+* Stacking video embeds and their blurbs vertically on smaller screen sizes to help with readability and maintain a succinct layout.
