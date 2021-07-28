@@ -31,6 +31,70 @@ These elements appear on every page identically and as such were tested once.
 
 ![A gif showing the CV download element being tested for function](assets/testing/download-testing.gif)
 
+### Page Testing
+
+#### Landing Page
+
+Clicking the logo refreshes the landing page
+
+![Landing page refresh](assets/testing/testing-gifs/landing-page-refresh.gif)
+
+Page responsiveness
+
+![Landing page responsiveness](assets/testing/testing-gifs/landing-page-responsive.gif)
+
+#### About
+
+Clicking the logo takes you back to the landing page
+
+![Clicking the logo on the About page](assets/testing/testing-gifs/about-logo-click.gif)
+
+Page responsiveness
+
+![About page responsiveness](assets/testing/testing-gifs/about-responsive.gif)
+
+Skills table responsiveness
+
+![Skills table responsiveness](assets/testing/testing-gifs/about-table-responsive.gif)
+
+#### Videography
+
+Clicking the logo takes you back to the landing page
+
+![Clicking the logo on the Videography page](assets/testing/testing-gifs/videography-logo.gif)
+
+Clicking on the video embeds starts the video player
+
+![Video embed test](assets/testing/testing-gifs/videography-embed-test.gif)
+
+Page responsiveness
+
+![Videography responsiveness](assets/testing/testing-gifs/videography-responsive.gif)
+
+#### Development
+
+Clicking on the logo takes you back to the landing page
+
+![Clicking the logo on the Development page](assets/testing/testing-gifs/development-logo.gif)
+
+Page responsiveness
+
+![Development page responsiveness](assets/testing/testing-gifs/development-responsive.gif)
+
+#### Contact
+
+Clicking on the logo takes you back to the landing page
+
+![Clicking the logo on the Contact page](assets/testing/testing-gifs/contact-logo.gif)
+
+Text entry for each of the fields on the Contact form
+
+![Text entry for the contact form](assets/testing/testing-gifs/contact-text-entry.gif)
+
+Page responsiveness
+
+![Contact page responsiveness](assets/testing/testing-gifs/contact-responsive.gif)
+
 ## Automated Testing
 
 ### W3Schools Validator
