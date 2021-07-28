@@ -123,6 +123,10 @@ Page responsiveness
 
 ![W3School CSS Validation](assets/testing/css.png)
 
+### Lighthouse Audit
+
+The full Lighthouse Audit can be found [here.](assets/testing/lighthouse-audit-ms1.pdf)
+
 ## User testing
 
 The website and documentation were given to friends and family to provide feedback on any bugs present or usability issues. From this feedback, two main features were implemented:
