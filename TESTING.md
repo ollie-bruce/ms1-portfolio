@@ -99,14 +99,26 @@ Page responsiveness
 
 ### W3Schools Validator
 
-![W3School HTML Validation screenshots for all pages](assets/testing/landing.png)
+#### Landing page
 
-![W3School HTML Validation screenshots for all pages](assets/testing/about.png)
+![W3School HTML Validation screenshots for the landing page](assets/testing/landing.png)
 
-![W3School HTML Validation screenshots for all pages](assets/testing/videography.png)
+#### About
 
-![W3School HTML Validation screenshots for all pages](assets/testing/development.png)
+![W3School HTML Validation screenshots for About](assets/testing/about.png)
 
-![W3School HTML Validation screenshots for all pages](assets/testing/contact.png)
+#### Videography
+
+![W3School HTML Validation screenshots for Videography](assets/testing/videography.png)
+
+#### Development
+
+![W3School HTML Validation screenshots for Development](assets/testing/development.png)
+
+#### Contact
+
+![W3School HTML Validation screenshots for Contact](assets/testing/contact.png)
+
+#### CSS
 
 ![W3School CSS Validation](assets/testing/css.png)
