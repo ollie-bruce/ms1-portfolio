@@ -1,5 +1,6 @@
 # Milestone Project 1 - Portfolio Website
 
+![Readme Header Image](assets/readme-images/readme-header.png)
 
 ## Introduction
 
