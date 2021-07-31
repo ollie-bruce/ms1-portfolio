@@ -73,16 +73,6 @@ Page responsiveness
 
 ![Videography responsiveness](assets/testing/testing-gifs/videography-responsive.gif)
 
-#### Development
-
-Clicking on the logo takes you back to the landing page
-
-![Clicking the logo on the Development page](assets/testing/testing-gifs/development-logo.gif)
-
-Page responsiveness
-
-![Development page responsiveness](assets/testing/testing-gifs/development-responsive.gif)
-
 #### Contact
 
 Clicking on the logo takes you back to the landing page
@@ -96,6 +86,16 @@ Text entry for each of the fields on the Contact form
 Page responsiveness
 
 ![Contact page responsiveness](assets/testing/testing-gifs/contact-responsive.gif)
+
+Form required fields testing
+
+![Contact page required fields](assets/testing/contact-testing-1.png)
+
+![Contact page required fields](assets/testing/contact-testing-2.png)
+
+![Contact page required fields](assets/testing/contact-testing-3.png)
+
+![Contact page required fields](assets/testing/contact-testing-4.png)
 
 ## Automated Testing
 
@@ -135,3 +135,4 @@ The website and documentation were given to friends and family to provide feedba
 
 * Adjusting the font sizes of main page titles for smaller screen sizes to increase readability (i.e. multi-word titles remaining on the same line)
 * Stacking video embeds and their blurbs vertically on smaller screen sizes to help with readability and maintain a succinct layout.
+* Removing development.html from the navbar due to its lack of content. The page still exists within the project file but will be implemented in the future when the developer has more work to show there.
